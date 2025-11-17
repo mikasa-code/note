@@ -1,3 +1,7 @@
 .idea/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+*.DS_Store
+.xcodemap/
+.vscode/
+log/
