@@ -124,5 +124,3 @@ ubuntu 默认使用 ufw
 
 
 参考 sealos 官网的安装方式  https://sealos.run/docs/self-hosting/install
-
-![](assets/Mac下使用%20Sealos%20部署%20K8s/file-20251117215136025.png)
