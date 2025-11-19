@@ -1,0 +1,30 @@
+{
+  "customOrder": {
+    "/": [
+      "工具",
+      "k8s"
+    ],
+    "工具": [
+      "工具/机场信息.md",
+      "工具/IDEA 必备操作.md"
+    ],
+    "k8s": [
+      "k8s/Sealos 部署.md",
+      "k8s/pod"
+    ],
+    "k8s/pod": [
+      "k8s/pod/assets",
+      "k8s/pod/常用命令.md",
+      "k8s/pod/pod 基础.md"
+    ],
+    "k8s/pod/assets": [
+      "k8s/pod/assets/pod 基础"
+    ],
+    "k8s/pod/assets/pod 基础": [
+      "k8s/pod/assets/pod 基础/file-20251119212956115.png"
+    ]
+  },
+  "sortOrder": "customOrder",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}
