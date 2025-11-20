@@ -42,12 +42,13 @@ spec:
 
 
 ![](assets/pod%20基础/file-20251119212956115.png)
-
 属于同一个 Pod 的多个容器应用之间在相互访问时仅需通过 localhost 就可以通信。
 my_frontend 中直接通过 localhost:6379 就可以访问
 
 
 
+
+下述是一个简单的 pod 的基础的配置文件
 yaml 定义文件
 ```yaml
 apiVersion: v1                  # Pod 的 API 版本
@@ -133,15 +134,4 @@ spec:
       emptyDir: {}
 
   restartPolicy: Always         # 重启策略（Pod 一般用 Always）
-  dnsPolicy: ClusterFirst       # 默认 DNS 策略
-  securityContext:              # Pod 级别的安全配置
-    runAsUser: 1000
-    runAsGroup: 1000
-    fsGroup: 2000
-
-  hostAliases:                  # 自定义 hosts（小场景调试时用）
-    - ip: "127.0.0.1"
-      hostnames:
-        - local.test
-
 ```

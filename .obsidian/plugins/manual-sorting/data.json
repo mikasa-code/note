@@ -9,13 +9,15 @@
       "工具/IDEA 必备操作.md"
     ],
     "k8s": [
+      "k8s/常用命令.md",
       "k8s/Sealos 部署.md",
       "k8s/pod"
     ],
     "k8s/pod": [
       "k8s/pod/assets",
-      "k8s/pod/常用命令.md",
-      "k8s/pod/pod 基础.md"
+      "k8s/pod/pod 基础.md",
+      "k8s/pod/静态 pod.md",
+      "k8s/pod/未命名.md"
     ],
     "k8s/pod/assets": [
       "k8s/pod/assets/pod 基础"
