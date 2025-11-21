@@ -14,10 +14,11 @@
       "k8s/pod"
     ],
     "k8s/pod": [
-      "k8s/pod/pod 中容器共享 Volume.md",
       "k8s/pod/assets",
       "k8s/pod/pod 基础.md",
-      "k8s/pod/静态 pod.md"
+      "k8s/pod/静态 pod.md",
+      "k8s/pod/pod 中容器共享 Volume.md",
+      "k8s/pod/pod 配置管理.md"
     ],
     "k8s/pod/assets": [
       "k8s/pod/assets/pod 基础"

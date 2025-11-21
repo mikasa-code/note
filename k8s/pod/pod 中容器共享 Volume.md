@@ -45,9 +45,7 @@ spec:
     
 3. 它的存储介质默认是节点本地磁盘
 
-如果想要持久化的存储最佳实践是使用 PV + PVC !!！
-
-
+如果想要持久化的存储最佳实践是使用 **PV + PVC !!！**
 
 因为文件是共享的
 Busybox 容器的启动命令力 “tail -f /logs/catalina*. Log”，就可以通过 kubectl logs 命
