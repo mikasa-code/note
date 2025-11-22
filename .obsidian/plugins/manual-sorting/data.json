@@ -19,7 +19,8 @@
       "k8s/pod/静态 pod.md",
       "k8s/pod/pod 中容器共享 Volume.md",
       "k8s/pod/pod 配置管理.md",
-      "k8s/pod/未命名.md"
+      "k8s/pod/容器内获取pod信息.md",
+      "k8s/pod/pod生命周期.md"
     ],
     "k8s/pod/assets": [
       "k8s/pod/assets/pod 基础"

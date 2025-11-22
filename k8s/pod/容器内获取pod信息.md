@@ -91,3 +91,7 @@ spec:
               fieldPath: metadata.annotations
 ```
 
+系统会基于 volume 中各 item 的 path 名称生成文件。
+根据上面的设置，系统将在容器内的/etc/podinfo 目录下生成 labels 文件和 annotations
+文件，内容是对应的键值对
+在 labels 文件中将包含 Pod 的全部 Label 列表，在 annotations 文件中将包含 Pod 的全部 Annotation 列表。
